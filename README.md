@@ -3,9 +3,9 @@
 
 ![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
 
-Primeiro passo é configurar assiturara do seu aplicativo no gradle
+Primeiro passo é configurar assinatura do seu aplicativo no gradle
 [Considerações sobre assinaturas](https://developer.android.com/studio/publish/app-signing#considerations)
-> Observação: o nome dentro do bloco `signingConfigs` pode ser de sua escolha, não precisa colocar o mesmo da documentação do android, ele será referênciado dentro do bloco `android.buildTypes.release` populando a propriedade `signingConfig`.
+> Observação: o nome dentro do bloco `signingConfigs` pode ser de sua escolha, não precisa colocar o mesmo da documentação, ele será referênciado dentro do bloco `android.buildTypes.release` populando a propriedade `signingConfig`.
 
 > Exemplo 
 `signingConfig signingConfigs.configSigningProduction`
