@@ -1,0 +1,3 @@
+def keystorePropertiesFile = rootProject.file("/security/keystore.properties")
+def keystoreProperties = new Properties()
+keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
