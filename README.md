@@ -24,3 +24,5 @@ Depois que você tiver um jks criado, e gradle configurado você pode está gera
 #### Esse projeto vai está utilizando os recursos do google cloud para publicar o aplicativo remotamento em sua determinada faixa.
 [Biblioteca](https://github.com/Triple-T/gradle-play-publisher#installation)
 > ***Observação:*** No final do registro será liberado um arquivo json, coloque dentro da pasta app exemplo `/app/service-account.json` caso seja feito um fork desse projeto o mesmo já se encontra no `.gitignore` com esse nome.
+
+Em construção...
