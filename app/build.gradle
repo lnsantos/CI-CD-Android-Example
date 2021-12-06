@@ -1,11 +1,17 @@
+
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'com.github.triplet.play'
 }
 
 def keystorePropertiesFile = rootProject.file("security/keystore.properties")
 def keystoreProperties = new Properties()
 keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+
+play {
+    serviceAccountCredentials.set(file("service-account.json"))
+}
 
 android {
     compileSdkVersion 31
